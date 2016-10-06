@@ -10,22 +10,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="jp.techacademy.yuichi.otsuka.gazodisguiser.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView"
-        android:visibility="invisible" />
-
     <Button
         android:text="File selector open"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="123dp"
+        android:layout_marginTop="158dp"
         android:id="@+id/fileSelectorButton"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="File disguising start"
@@ -36,4 +28,5 @@
         android:layout_below="@id/fileSelectorButton"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true" />
+
 </RelativeLayout>
